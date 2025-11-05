@@ -9,7 +9,7 @@ import SubjectHero from './SubjectHero';
 const levels = [
   { name: "Beginner", color: "#4ade80", texts: "✨ At this level, children will learn the basics and start to explore the world around them." },
   { name: "Intermediate", color: "#facc15" , texts: "🚀 At this level, children will strengthen their basic knowledge and learn to explore new things." },
-  { name: "Advance", color: "#f87171", texts: " 🌍 Here, children will learn real-world knowledge. Future scientists, leaders, and innovators will emerge from here." },
+  { name: "Advanced", color: "#f87171", texts: " 🌍 Here, children will learn real-world knowledge. Future scientists, leaders, and innovators will emerge from here." },
 ];
 
 const Subject = () => {
