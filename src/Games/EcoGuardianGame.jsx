@@ -299,7 +299,7 @@ export default function EcoGuardianGame() {
 
   return (
     <div className={`min-h-screen w-full bg-gradient-to-b ${sky} relative overflow-hidden`}>
-      <Toasts />
+      {/* <Toasts /> */}
 
       {/* floating clouds */}
       <motion.div
