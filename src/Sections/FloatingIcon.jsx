@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Sparkles, Star } from "lucide-react";
@@ -9,6 +8,7 @@ export default function FloatingIcon() {
     { x: 100, y: 150 },
   ]);
 
+  // Random movement generator for both icons
   const moveRandomly = () => {
     setPositions([
       {
@@ -27,9 +27,6 @@ export default function FloatingIcon() {
     const interval = setInterval(moveRandomly, 5000);
     return () => clearInterval(interval);
   }, []);
-
-  // Color array for blinking effect
-  const colors = ["#FF3C38", "#FFB400", "#28C76F", "#00CFE8", "#9C27B0", "#FF4081"];
 
   return (
     <>
@@ -50,15 +47,10 @@ export default function FloatingIcon() {
         className="fixed top-0 left-0 z-[9999] pointer-events-none"
       >
         <motion.div
-          className="p-3 rounded-full bg-transparent shadow-lg backdrop-blur-md"
+          className="p-3 rounded-full bg-gradient-to-br from-blue-500 to-yellow-400 shadow-lg shadow-yellow-300 backdrop-blur-md"
           whileHover={{ scale: 1.4, rotate: 25 }}
         >
-          <motion.div
-            animate={{ color: colors }}
-            transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
-          >
-            <Sparkles className="w-8 h-8" />
-          </motion.div>
+          <Sparkles className="text-white w-8 h-8" />
         </motion.div>
       </motion.div>
 
@@ -75,20 +67,15 @@ export default function FloatingIcon() {
           ease: "easeInOut",
           repeat: Infinity,
           repeatType: "reverse",
-          delay: 2,
+          delay: 2, // thoda alag timing
         }}
         className="fixed top-0 left-0 z-[9998] pointer-events-none"
       >
         <motion.div
-          className="p-3 rounded-full bg-transparent shadow-lg backdrop-blur-md"
+          className="p-3 rounded-full bg-gradient-to-br from-purple-600 to-pink-400 shadow-lg shadow-pink-300 backdrop-blur-md"
           whileHover={{ scale: 1.4, rotate: -20 }}
         >
-          <motion.div
-            animate={{ color: colors }}
-            transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
-          >
-            <Star className="w-8 h-8" />
-          </motion.div>
+          <Star className="text-white w-8 h-8" />
         </motion.div>
       </motion.div>
     </>
