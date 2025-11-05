@@ -1,0 +1,56 @@
+.ff-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff7e5f);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.ff-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #00000050;
+}
+
+.fraction-question {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.fraction-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.fraction-btn {
+  padding: 12px 20px;
+  font-size: 24px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: #4caf50;
+  color: #fff;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.fraction-btn:hover {
+  transform: scale(1.1);
+  background: #388e3c;
+}
+
+.feedback {
+  font-size: 1.8rem;
+  margin-top: 15px;
+}
+
+.feedback.correct {
+  color: #4caf50;
+}
+
+.feedback.wrong {
+  color: #f44336;
+}

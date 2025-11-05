@@ -1,0 +1,74 @@
+.css-game-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #fceabb, #f8b500, #ff6f61);
+  min-height: 100vh;
+}
+
+.game-title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #00000050;
+  margin-bottom: 20px;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 15px;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.item.circle { border-radius: 50%; }
+.item.square { border-radius: 10%; }
+.item.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid;
+}
+
+.item:active { transform: scale(1.2); }
+
+.dropzones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.dropzone-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dropzone {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed #555;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.dropzone:hover {
+  transform: scale(1.1);
+  background-color: #ffffff55;
+}

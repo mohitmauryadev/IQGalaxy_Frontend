@@ -1,0 +1,96 @@
+.asq-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff7e5f);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.asq-title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #00000050;
+  margin-bottom: 20px;
+}
+
+.asq-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  display: inline-block;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animal-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  transition: transform 0.3s;
+}
+
+.animal-img:hover {
+  transform: scale(1.1);
+}
+
+.play-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  background: #388e3c;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.option-btn:hover {
+  transform: scale(1.05);
+  background: #ffeb3b;
+}
+
+.option-btn.correct {
+  background: #4caf50 !important;
+  color: #fff;
+}
+
+.option-btn.wrong {
+  background: #f44336 !important;
+  color: #fff;
+}
+
+.score {
+  font-size: 22px;
+  color: #ff9800;
+  font-weight: bold;
+}

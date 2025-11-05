@@ -1,0 +1,17 @@
+.ChatWindowHeader{
+     background: linear-gradient(130deg, #007bff, #ffc107);
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 20px;
+    transform: rotate(20deg); */
+}
+
+.SendBTN{
+    background: linear-gradient(130deg, #007bff, #ffc107);
+}
+
+.SendBTN:hover{
+    cursor: pointer;
+    background: linear-gradient(130deg, #ffc107, #007bff);
+    font-weight: bold;
+}

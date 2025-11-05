@@ -1,0 +1,60 @@
+.heroSection {
+    width: 100%;
+}
+
+.Leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* border: 1px solid rgba(202, 201, 201, 0.612); */
+}
+
+.Rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* border: 1px solid rgba(202, 201, 201, 0.612); */
+}
+
+.btn1 {
+    background: linear-gradient(130deg, #007bff, #ffc107);
+    
+}
+
+.btn2 {
+    background: linear-gradient(130deg, #ffc107, #007bff);
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background: linear-gradient(130deg, #ffc107, #007bff);
+    font-weight: bold;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background: linear-gradient(130deg, #007bff, #ffc107);
+    font-weight: bold;
+}
+
+@media  screen and (max-width:800px) {
+    .BothContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+ .Leftside {
+   margin: auto;
+    width: 80%;
+}
+
+.Rightside {
+    margin: auto;
+    width: 80%;
+}   
+}

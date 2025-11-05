@@ -1,0 +1,81 @@
+.Apkcard {
+  position: relative;
+  top: 0px;
+  width: 90%;
+  border-radius: 12px;
+  padding: 20px;
+  
+  transition: transform 0.15s ease;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  border: 1px solid #ffc107;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+
+.Apkcard::before {
+  content: '';
+  position: absolute;
+  left: var(--x, 50%);
+  top: var(--y, 50%);
+  width: var(--width, 0);
+  height: var(--height, 0);
+  background: radial-gradient(ellipse closest-side,#ffe596, transparent);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.Apkcard:hover::before {
+  --width: 300px;
+  --height: 200px;
+}
+
+.AppCard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-bottom:40px;
+    padding-top: 40px;
+}
+
+.Appimg{
+  width: 470px;
+}
+
+.AppH{
+    color: #007bff;
+}
+
+.Apkp{
+  font-weight: bold;
+  color: #000000c6;
+}
+
+.Appknowbtn{
+    background: linear-gradient(130deg, #007bff, #ffc107);
+}
+
+.Appknowbtn:hover{
+    cursor: pointer;
+    background: linear-gradient(130deg, #ffc107, #007bff);
+    font-weight: bold;
+}
+
+@media screen and (max-width:950px) {
+    .AppCard{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+.containttext{
+    width: 85%;
+}
+   .Appimg{
+    width: 85%;
+   } 
+}

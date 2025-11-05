@@ -1,0 +1,31 @@
+.connectionsCard{
+    background: linear-gradient(130deg, #add5ff, #ffedb6);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 20px;
+    transform: rotate(5deg);
+}
+
+.connectionsCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px #356b72;
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(-10deg);
+    scale: 1.02;
+
+}
+
+.LearnMoreBtn {
+    background: linear-gradient(130deg, #007bff, #ffc107);
+    padding: 7px 20px 7px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.LearnMoreBtn:hover {
+    cursor: pointer;
+    background: linear-gradient(130deg, #ffc107, #007bff);
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+.mm-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #ffe29f, #ff7e5f, #ff3c6e);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.mm-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #00000050;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  perspective: 600px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-front, .card-back {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  position: absolute;
+}
+
+.card-front {
+  background: #4caf50;
+  color: #fff;
+}
+
+.card-back {
+  background: #ffeb3b;
+  color: #333;
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card-front {
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card-back {
+  transform: rotateY(0deg);
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #2196f3;
+  color: #fff;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.reset-btn:hover {
+  transform: scale(1.1);
+  background: #1976d2;
+}
