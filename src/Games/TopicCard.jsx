@@ -12,7 +12,7 @@ export default function TopicCard({ topic, subject, level }) {
   const handlePlayNow = async () => {
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:5000/api/generate-quiz", {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/generate-quiz`, {
         topic,
         subject,
         level,
