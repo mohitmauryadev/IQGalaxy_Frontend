@@ -25,7 +25,7 @@ const Home = () => {
         <div className='relative top-[80px]'><HomeHowItWork/></div>
         <div className='relative top-[80px]'><Rewards/></div>
         <div className='relative top-[80px]'><ParentsTeachers/></div>
-        {/* <div className='relative top-[80px]'><FloatingIcon/></div> */}
+       <div className='relative top-[80px]'><FloatingIcon/></div> 
         <div className='relative top-[80px]'><DemoPreview/></div>
         <div className='relative top-[80px]'><Testimonials/></div>
         <div className='relative top-[80px]'><CommunityStats/></div>
