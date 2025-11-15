@@ -41,7 +41,7 @@ function App() {
         </Routes>
       </Router>
       <Chatbot />
-      <div className='relative top-[80px]'><FloatingIcon/></div>
+      {/* <div className='relative top-[80px]'><FloatingIcon/></div> */}
 
     </div>
   )
