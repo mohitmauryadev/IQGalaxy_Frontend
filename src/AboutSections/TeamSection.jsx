@@ -6,7 +6,7 @@ const teamMembers = [
     name: "Piyush Kumar",
     role: "Lead Developer & Team Leader",
     image:
-      "https://media.licdn.com/dms/image/v2/D5603AQE94aPw7wC-mA/profile-displayphoto-crop_800_800/B56ZjTrgdOHMAI-/0/1755898056761?e=1763596800&v=beta&t=-cQJWWvUHUf-pqeVyTrhvuiVz86vn1mbeYt3FOULss4",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaE-1tijXOg_0uJbest2ovYGWjIDaseJKtg&s",
     description:
       "Project Manager & CEO, guiding IQGalaxy with strategic vision, strong leadership, and innovative direction",
   },
