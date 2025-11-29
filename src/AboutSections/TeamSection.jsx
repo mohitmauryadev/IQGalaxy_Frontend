@@ -31,7 +31,7 @@ const teamMembers = [
     name: "Paras Sahu",
     role: "UI/UX Designer",
     image:
-      "https://media.licdn.com/dms/image/v2/D5603AQGeEbP3nrtzJA/profile-displayphoto-shrink_800_800/B56ZpQCMbyKEAc-/0/1762279346734?e=1763596800&v=beta&t=NqPWakH8TzqZ-UTIfki9YRSNFfbuQMi4aY326orIick",
+      "https://media.licdn.com/dms/image/v2/D5603AQGeEbP3nrtzJA/profile-displayphoto-shrink_800_800/B56ZpQCMbyKEAc-/0/1762279346734?e=1766016000&v=beta&t=vXmTZG_dMgbanWrhDAT1-EONeWhK6MRIEOh72hkkGkw",
     description:
       "Explores AI and modern tools to enhance adaptive learning, bringing intelligence and personalization to IQGalaxy.",
   },
