@@ -39,7 +39,7 @@ const teamMembers = [
     name: "Neeraj Kumar Gupta",
     role: "Content Writer",
     image:
-      "https://media.licdn.com/dms/image/v2/D5603AQHXo3YafBcJZg/profile-displayphoto-crop_800_800/B56Zjz6n.zHAAI-/0/1756438891558?e=1763596800&v=beta&t=W5ABXzvVWdovrKJevfEo-p3-pJFA9oG14JNTY6aMWKk",
+      "https://media.licdn.com/dms/image/v2/D5603AQGeEbP3nrtzJA/profile-displayphoto-shrink_800_800/B56ZpQCMbyKEAc-/0/1762279346734?e=1766016000&v=beta&t=vXmTZG_dMgbanWrhDAT1-EONeWhK6MRIEOh72hkkGkw",
     description:
       "Designs structured, fun, and effective learning content, aligning modern education with gamified learning experiences.",
   },
