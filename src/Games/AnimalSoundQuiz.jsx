@@ -26,11 +26,11 @@ const ANIMALS = [
     sound: Gog,
     image: "https://www.shutterstock.com/image-photo/beautiful-golden-retriever-cute-puppy-600nw-2526542701.jpg"
   },
-  //  {
-  //   name: "Neeraj",
-  //   sound: Neeraj, 
-  //   image: "https://madidaclothing.com/cdn/shop/products/image_b1b2ef72-2594-4b55-aff6-9c7518a277f7.jpg?v=1656001514",
-  // },
+   {
+    name: "Neeraj",
+    sound: Neeraj, 
+    image: "https://madidaclothing.com/cdn/shop/products/image_b1b2ef72-2594-4b55-aff6-9c7518a277f7.jpg?v=1656001514",
+  },
   {
     name: "Cat",
     sound: Cat ,
